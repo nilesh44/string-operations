@@ -9,8 +9,8 @@ public class StringConstantPoolTest {
 	@Test
 	public void verifyStringLiteralStoreInSCP() {
 
-		// object created with literal is always stored in SCP
-		// in SCP if same content is alrady present then jvm do not create new object it
+		// object created with String literal is always stored in SCP
+		// in SCP if same content is already present then jvm do not create new object it
 		// simply pass , reference of already existing object
 		String s1 = "World";
 		String s2 = "World";
